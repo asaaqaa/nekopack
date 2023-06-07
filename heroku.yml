@@ -1,0 +1,9 @@
+build:
+
+  docker:
+
+      worker: Dockerfile
+
+run:
+
+   العامل  : python3 -m zthon
