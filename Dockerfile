@@ -1,6 +1,6 @@
-FROM zed-thon/zelzal:slim-buster
+FROM ASAAQALIAS/zelzal:slim-buster
 
-RUN git clone https://github.com/zed-thon/ASAAQALIAS.git /root/zthon
+RUN git clone https://github.com/ASAAQALIAS.git/root/zthon
 
 WORKDIR /root/zthon
 
