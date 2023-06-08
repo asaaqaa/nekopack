@@ -1,12 +1,12 @@
-FROM asaaqaa/ASAAQALIAS:slim-buster
+من asaaqaa / ASAQALIAS: سليم باستر
 
-RUN git clone https://github.com/asaaqaa.git/root/zthon
+RUN git clone https://github.com/asaaqaa/ASAAQALIAS.git/root/zthon
 
-WORKDIR /root/zthon
+WORKDIR / الجذر / زثون
 
-RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_16.x | باش -
 
-RUN apt-get install -y nodejs
+قم يسمح apt-get install -y nodejs
 
 RUN npm i -g npm
 
