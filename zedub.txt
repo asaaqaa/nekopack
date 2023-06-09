@@ -90,7 +90,7 @@ _run_catpack_git() {
 
 import sys
 
-OFFICIAL_UPSTREAM_REPO = "https://github.com/Zed-Thon/nekopack"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/asaaqaa/nekopack"
 
 ACTIVE_BRANCH_NAME = "master"
 
@@ -134,7 +134,7 @@ _set_bot () {
 
     local zippath
 
-    zippath="ZedThon1.zip"
+    zippath="asaaq.zip"
 
     echo "⌭ جاري تنزيل اكواد السورس ⌭"
 
@@ -164,7 +164,7 @@ _set_bot () {
 
     chmod -R 755 bin
 
-    echo "⌭ جـاري بـدء تنصيـب زدثـــون ⌭"
+    echo "⌭جـاري بـدء تنصيـب الامبراطور ون ⌭"
 
     echo "
 

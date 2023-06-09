@@ -6,4 +6,4 @@ build:
 
 run:
 
-   العامل  : python3 -m zthon
+   worker: python3 -m Zara
