@@ -30,7 +30,7 @@ _get_ziplink () {
 
         else
 
-            echo "${UPSTREAM_REPO}/archive/master.zip"
+            echo "${UPSTREAM_REPO}/archive/AsAs.zip"
 
         fi
 
