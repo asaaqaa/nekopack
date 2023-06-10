@@ -6,7 +6,7 @@ _get_ziplink () {
 
     regex='(https?)://github.com/.+/.+'
 
-    if [[ $UPSTREAM_REPO == "zel" ]]
+    if [[ $UPSTREAM_REPO == "ASAAQALIAS" ]]
 
     then
 
@@ -92,7 +92,7 @@ import sys
 
 OFFICIAL_UPSTREAM_REPO = "https://github.com/asaaqaa/nekopack"
 
-ACTIVE_BRANCH_NAME = "master"
+ACTIVE_BRANCH_NAME = "AsAs"
 
 repo = Repo.init()
 
@@ -134,7 +134,7 @@ _set_bot () {
 
     local zippath
 
-    zippath="ZedThon1.zip"
+    zippath="AsAs.zip"
 
     echo "⌭ جاري تنزيل اكواد السورس ⌭"
 
