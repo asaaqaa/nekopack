@@ -134,7 +134,7 @@ _set_bot () {
 
     local zippath
 
-    zippath="asaaq.zip"
+    zippath="binter.zip"
 
     echo "⌭ جاري تنزيل اكواد السورس ⌭"
 
