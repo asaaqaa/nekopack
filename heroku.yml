@@ -6,4 +6,4 @@ build:
 
 run:
 
-   worker: python3 -m binter
+   worker: python3 -m main
