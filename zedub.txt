@@ -30,7 +30,7 @@ _get_ziplink () {
 
         else
 
-            echo "${UPSTREAM_REPO}/archive/AsAs.zip"
+            echo "${UPSTREAM_REPO}/archive/main.zip"
 
         fi
 
@@ -90,9 +90,9 @@ _run_catpack_git() {
 
 import sys
 
-OFFICIAL_UPSTREAM_REPO = "https://github.com/asaaqaa/ASAAQALIAS"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/asaaqaa/nekopack"
 
-ACTIVE_BRANCH_NAME = "AsAs"
+ACTIVE_BRANCH_NAME = "main"
 
 repo = Repo.init()
 
@@ -116,7 +116,7 @@ import sys
 
 OFFICIAL_UPSTREAM_REPO="'$repolink'"
 
-ACTIVE_BRANCH_NAME = "'$UPSTREAM_REPO_BRANCH'" or "AsAs"
+ACTIVE_BRANCH_NAME = "'$UPSTREAM_REPO_BRANCH'" or "main"
 
 repo = Repo.init()
 
