@@ -134,7 +134,7 @@ _set_bot () {
 
     local zippath
 
-    zippath =  "ASAAQALIAS.zip"
+    zippath =  "main.zip"
 
     echo "⌭ جاري تنزيل اكواد السورس ⌭"
 
@@ -170,7 +170,7 @@ _set_bot () {
 
     "
 
-    python3 -m zthon
+    python3 -m binter
 
 }
 
