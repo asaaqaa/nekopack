@@ -30,7 +30,7 @@ _get_ziplink () {
 
         else
 
-            echo "${UPSTREAM_REPO}/archive/main.zip"
+            echo "${UPSTREAM_REPO}/archive/AsAs.zip"
 
         fi
 
@@ -92,7 +92,7 @@ import sys
 
 OFFICIAL_UPSTREAM_REPO = "https://github.com/asaaqaa/nekopack"
 
-ACTIVE_BRANCH_NAME = "main"
+ACTIVE_BRANCH_NAME = "AsAs"
 
 repo = Repo.init()
 
@@ -116,7 +116,7 @@ import sys
 
 OFFICIAL_UPSTREAM_REPO="'$repolink'"
 
-ACTIVE_BRANCH_NAME = "'$UPSTREAM_REPO_BRANCH'" or "main"
+ACTIVE_BRANCH_NAME = "'$UPSTREAM_REPO_BRANCH'" or "AsAs"
 
 repo = Repo.init()
 
@@ -134,7 +134,7 @@ _set_bot () {
 
     local zippath
 
-    zippath="binter.zip"
+    zippath="AsAs.zip"
 
     echo "⌭ جاري تنزيل اكواد السورس ⌭"
 
@@ -170,7 +170,7 @@ _set_bot () {
 
     "
 
-    python3 -m  binter
+    python3 -m  AsAs
 
 }
 
