@@ -170,7 +170,7 @@ _set_bot () {
 
     "
 
-    python3 -m  AsAs
+    python3 -m  binter
 
 }
 
