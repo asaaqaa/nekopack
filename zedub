@@ -16,7 +16,7 @@ _get_ziplink () {
         then
             echo "${UPSTREAM_REPO}/archive/${UPSTREAM_REPO_BRANCH}.zip"
         else
-            echo "${UPSTREAM_REPO}/archive/master.zip"
+            echo "${UPSTREAM_REPO}/archive/AsAs.zip"
         fi
     else
         echo "aHR0cHM6Ly9naXRodWIuY29tL1plZC1UaG9uL1pFTFpBTC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
@@ -51,7 +51,7 @@ _run_catpack_git() {
     $(_run_python_code 'from git import Repo
 import sys
 OFFICIAL_UPSTREAM_REPO = "https://github.com/asaaqaa/nekopack"
-ACTIVE_BRANCH_NAME = "main"
+ACTIVE_BRANCH_NAME = "AsAs"
 repo = Repo.init()
 origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
 origin.fetch()
@@ -64,7 +64,7 @@ _run_cat_git() {
     $(_run_python_code 'from git import Repo
 import sys
 OFFICIAL_UPSTREAM_REPO="'$repolink'"
-ACTIVE_BRANCH_NAME = "'$UPSTREAM_REPO_BRANCH'" or "main"
+ACTIVE_BRANCH_NAME = "'$UPSTREAM_REPO_BRANCH'" or "AsAs"
 repo = Repo.init()
 origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
 origin.fetch()
@@ -74,7 +74,7 @@ repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 
 _set_bot () {
     local zippath
-    zippath="main.zip"
+    zippath="AsAs.zip"
     echo "⌭ جاري تنزيل اكواد السورس ⌭"
     wget -q $(_get_ziplink) -O "$zippath"
     echo "⌭ تفريغ البيانات ⌭"
@@ -93,7 +93,7 @@ _set_bot () {
     echo "
 
     "
-    python3 -m main
+    python3 -m AsAs
 }
 
 _set_bot
