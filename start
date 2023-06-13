@@ -6,7 +6,7 @@ _get_ziplink () {
 
     regex='(https?)://github.com/.+/.+'
 
-    if [[ $UPSTREAM_REPO == "ASAAQALIAS" ]]
+    if [[ $UPSTREAM_REPO == "asaaqaa" ]]
 
     then
 
@@ -50,7 +50,7 @@ _get_repolink () {
 
     regex='(https?)://github.com/.+/.+'
 
-    if [[ $UPSTREAM_REPO == "zel" ]]
+    if [[ $UPSTREAM_REPO == "asaaqaa" ]]
 
     then
 
@@ -90,7 +90,7 @@ _run_catpack_git() {
 
 import sys
 
-OFFICIAL_UPSTREAM_REPO = "https://github.com/asaaqaa/ASAAQALIAS"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/asaaqaa/ASAAQALIAS.git"
 
 ACTIVE_BRANCH_NAME = "AsAs"
 
