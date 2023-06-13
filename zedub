@@ -4,7 +4,7 @@
 _get_ziplink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "zel" ]]
+    if [[ $UPSTREAM_REPO == "asaaqaa" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL1plZC1UaG9uL1pFTFpBTC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
     elif [[ $UPSTREAM_REPO == "beta" ]]
@@ -27,7 +27,7 @@ _get_repolink () {
     local regex
     local rlink
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "zel" ]]
+    if [[ $UPSTREAM_REPO == "asaaqaa" ]]
     then
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL1plZC1UaG9uL1plbFphbA==" | base64 -d`
     elif [[ $UPSTREAM_REPO == "beta" ]]
@@ -50,7 +50,7 @@ _run_python_code() {
 _run_catpack_git() {
     $(_run_python_code 'from git import Repo
 import sys
-OFFICIAL_UPSTREAM_REPO = "https://github.com/asaaqaa/nekopack"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/asaaqaa/ASAAQALIOAS"
 ACTIVE_BRANCH_NAME = "AsAs"
 repo = Repo.init()
 origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
