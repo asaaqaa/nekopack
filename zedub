@@ -16,7 +16,7 @@ _get_ziplink () {
         then
             echo "${UPSTREAM_REPO}/archive/${UPSTREAM_REPO_BRANCH}.zip"
         else
-            echo "${UPSTREAM_REPO}/archive/AsAs.zip"
+            echo "${UPSTREAM_REPO}/archive/main.zip"
         fi
     else
         echo "aHR0cHM6Ly9naXRodWIuY29tL1plZC1UaG9uL1pFTFpBTC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
@@ -74,7 +74,7 @@ repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 
 _set_bot () {
     local zippath
-    zippath="main.zip"
+    zippath="ZedThon1.zip"
     echo "⌭ جاري تنزيل اكواد السورس ⌭"
     wget -q $(_get_ziplink) -O "$zippath"
     echo "⌭ تفريغ البيانات ⌭"
@@ -93,7 +93,7 @@ _set_bot () {
     echo "
 
     "
-    python3 -m main
+    python3 -m AsAs
 }
 
 _set_bot
