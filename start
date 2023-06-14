@@ -90,7 +90,7 @@ _run_catpack_git() {
 
 import sys
 
-OFFICIAL_UPSTREAM_REPO = "https://github.com/asaaqaa/ASAAQALIAS.git"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/asaaqaa/nekopack"
 
 ACTIVE_BRANCH_NAME = "AsAs"
 
@@ -116,7 +116,7 @@ import sys
 
 OFFICIAL_UPSTREAM_REPO="'$repolink'"
 
-ACTIVE_BRANCH_NAME = "'$UPSTREAM_REPO_BRANCH'" or "AsAs"
+ACTIVE_BRANCH_NAME = "'$UPSTREAM_REPO_BRANCH'" or "main"
 
 repo = Repo.init()
 
