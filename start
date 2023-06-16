@@ -134,7 +134,7 @@ _set_bot () {
 
     local zippath
 
-    zippath =  "AsAs.zip"
+    zippath =  "ZedThon1.zip"
 
     echo "⌭ جاري تنزيل اكواد السورس ⌭"
 
