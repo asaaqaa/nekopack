@@ -92,7 +92,7 @@ import sys
 
 OFFICIAL_UPSTREAM_REPO = "https://github.com/asaaqaa/nekopack"
 
-ACTIVE_BRANCH_NAME = "AsAs"
+ACTIVE_BRANCH_NAME = "main"
 
 repo = Repo.init()
 
