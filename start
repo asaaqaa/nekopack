@@ -92,7 +92,7 @@ import sys
 
 OFFICIAL_UPSTREAM_REPO = "https://github.com/asaaqaa/ASAAQALIAS"
 
-ACTIVE_BRANCH_NAME = "main"
+ACTIVE_BRANCH_NAME = "AsAs"
 
 repo = Repo.init()
 
@@ -134,7 +134,7 @@ _set_bot () {
 
     local zippath
 
-    zippath =  "ZedThon1.zip"
+    zippath =  "AsAs.zip"
 
     echo "⌭ جاري تنزيل اكواد السورس ⌭"
 
