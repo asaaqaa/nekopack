@@ -1,1 +1,1 @@
-worker: bash zedob
+worker: bash start
