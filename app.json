@@ -1,163 +1,224 @@
 {
 
-  "name": "ASAAQ",
 
-  "description": "〔 الامبراطور  اليســـع⁪⁬⁮⁮⁮⁮ ‌‌‌‌𝄞ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋ𝆫 𓅛 〕التحـديث الجديـد افضـل سـورسـات تليثـون يـوزربـوت العربيـة : › عربـي بالكـامل › تحديثـات متواصـله › مبنـي ع آخـر اصـدار مـن لغـة بايثـون〔 Python 3.10.6 〕معدل عليه حفيد الملوگ - مطـور السـورس : زلـزال الهيبـه ",
+  "name": "الإمــــبراطور ",
+
+
+  "description": "〔 سـورس الإمــــبراطور𓅛 〕التحـديث الجديـد افضـل سـورسـات تليثـون يـوزربـوت العربيـة : › عربـي بالكـامل › تحديثـات متواصـله › مبنـي ع آخـر اصـدار مـن لغـة بايثـون〔 Python 3.10.6 〕- معدل السورس: الإمــــبراطور اليسع مطـور السـورس : زلـزال الهيبـه ",
+
 
   "logo": "https://telegra.ph/file/c91c09fb188f0f281e628.jpg",
 
+
   "keywords": [
+
 
     "plugin",
 
+
     "modular",
+
 
     "productivity"
 
+
   ],
 
-  "repository": "https://github.com/asaaqaa/ASAAQALIAS",
+
+  "repository": "https://github.com/Zed-Thon/ZelZal",
+
 
   "website": "#TODO",
 
+
   "success_url": "#TODO",
+
 
   "env": {
 
+
     "ALIVE_NAME": {
 
-      "description": "اســم حســـابك التلـي",
+
+      "description": "اســم حســـابك على التلـي",
+
 
       "value": ""
 
+
     },
+
 
     "APP_ID": {
 
+
       "description": "كـود ايبي ايـدي〔 App id 〕الصغيـر", 
+
 
       "value": ""
 
+
     },
+
 
     "API_HASH": {
 
-      "description": "كـود ايبي هـاش〔 Api hash 〕..",
+
+      "description": "كـود الايبي هـاش〔 Api hash 〕..",
+
 
       "value": ""
 
+
     },
+
 
     "ENV": {
 
-      "description": "لا تغيــرهـــا",
+
+      "description": "يا ولد لا تغيــرهـــا",
+
 
       "value": "ANYTHING"
 
+
     },
+
 
     "COMMAND_HAND_LER": {
 
-      "description": "لا تغيــرهـــا",
+
+      "description": "يا ولد افهم لا تغيــرهـــا",
+
 
       "value": "."
 
+
     },
+
 
     "STRING_SESSION": {
 
+
       "description": "كـــود تيـــرمكـــس - الكـود الكبيـر مـن حـافظـة حسـابـك",
+
 
       "value": ""
 
+
     },
+
 
     "TG_BOT_TOKEN": {
 
+
       "description": "تـــوكـــن البـــوت - من بـوت فـاذر〔 @Botfather 〕..",
+
 
       "value": ""
 
+
     },
+
 
     "HEROKU_API_KEY": {
-
       "description": "كـــود مفتـــاح هيروكـــو - تروح ع الرابـط » https://dashboard.heroku.com/account  ع آخـر خانـه تضغط Reveal وتنسـخ الكـود لهنـا",
-
       "value": "",
-
       "required": false
-
     },
-
     "HEROKU_APP_NAME": {
-
       "description": "اســـم التطبيـــق - نفـس اول مربـع بالقائمـة نسـخ لصـق حـروف انكلـش صغيـره",
-
       "value": "",
-
       "required": false
-
     },
-
     "TZ": {
+
 
       "description": "المنطقـــه الزمنيـــه لا تغيــرهـــا",
 
+
       "value": "Asia/Baghdad",
+
 
       "required": false
 
+
     }
+
 
   },
 
+
   "addons": [{
+
 
     "plan": "heroku-postgresql",
 
+
     "options": {
+
 
       "version": "12"
 
+
     }
 
+
   }],
+
 
   "buildpacks": [{
 
+
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
 
+
   },{
+
 
     "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
 
+
   },{
+
 
     "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
 
+
   },{
+
 
     "url": "https://github.com/riganf/heroku-buildpack-p7zip"
 
+
   },{
+
 
     "url": "https://github.com/heroku/heroku-buildpack-apt.git"
 
+
   },{
+
 
     "url": "https://github.com/chrismytton/heroku-buildpack-jq"
 
+
   },{
+
 
     "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
 
+
   },{
+
 
     "url": "heroku/python"
 
+
   }],
 
+
   "stack": "heroku-22"
+
 
 }
