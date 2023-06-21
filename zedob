@@ -4,7 +4,7 @@
 _get_ziplink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "zel" ]]
+    if [[ $UPSTREAM_REPO == "asaaqaa" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL1plZC1UaG9uL1plbHphbC9hcmNoaXZlL1phcmEuemlw" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
@@ -24,7 +24,7 @@ _get_repolink () {
     local regex
     local rlink
     regex='(https?)://github.com/.+/.+'
-    if [[ $UPSTREAM_REPO == "zel" ]]
+    if [[ $UPSTREAM_REPO == "asaaqaa" ]]
     then
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL1plZC1UaG9uL1plbHphbC5naXQ=" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
@@ -45,7 +45,7 @@ _run_catpack_git() {
     $(_run_python_code 'from git import Repo
 import sys
 OFFICIAL_UPSTREAM_REPO = "https://github.com/asaaqaa/Radb"
-ACTIVE_BRANCH_NAME = "Reed"
+ACTIVE_BRANCH_NAME = "main"
 repo = Repo.init()
 origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
 origin.fetch()
