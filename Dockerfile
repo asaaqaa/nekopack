@@ -1,8 +1,8 @@
 FROM asaaqaa/Radb:slim-buster
 
-RUN git clone https://github.com/asaaqaa/Radb.git /root/Reed
+RUN git clone https://github.com/asaaqaa/Radb.git /root/Radb
 
-WORKDIR /root/Reed
+WORKDIR /root/Radb
 
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
