@@ -30,7 +30,7 @@ _get_ziplink () {
 
         else
 
-            echo "${UPSTREAM_REPO}/archive/Reed.zip"
+            echo "${UPSTREAM_REPO}/archive/AsAs.zip"
 
         fi
 
@@ -90,9 +90,9 @@ _run_catpack_git() {
 
 import sys
 
-OFFICIAL_UPSTREAM_REPO = "https://github.com/asaaqaa/Radb"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/asaaqaa/nekopack"
 
-ACTIVE_BRANCH_NAME = "main"
+ACTIVE_BRANCH_NAME = "AsAs"
 
 repo = Repo.init()
 
@@ -134,7 +134,7 @@ _set_bot () {
 
     local zippath
 
-    zippath="Reed.zip"
+    zippath="Radb.zip"
 
     echo "⌭ جاري تنزيل اكواد السورس ⌭"
 
