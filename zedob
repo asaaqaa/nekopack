@@ -44,7 +44,7 @@ _run_python_code() {
 _run_catpack_git() {
     $(_run_python_code 'from git import Repo
 import sys
-OFFICIAL_UPSTREAM_REPO = "https://github.com/asaaqaa/Radb"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/asaaqaa/nekopack"
 ACTIVE_BRANCH_NAME = "Reed"
 repo = Repo.init()
 origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
@@ -68,7 +68,7 @@ repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 
 _set_bot () {
     local zippath
-    zippath="Reed.zip"
+    zippath="Radb.zip"
     echo "⌭ جاري تنزيل اكواد السورس ⌭"
     wget -q $(_get_ziplink) -O "$zippath"
     echo "⌭ تفريغ البيانات ⌭"
