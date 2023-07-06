@@ -1,6 +1,6 @@
 FROM asaaqaa/Radb:slim-buster
 
-RUN git clone https://github.com/asaaqaa/Radb.git /root/Radb
+RUN git clone https://github.com/asaaqaa/Radb/tree/Reed.git /root/Radb
 
 WORKDIR /root/Radb
 
